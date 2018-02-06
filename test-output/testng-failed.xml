@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiautomation.homepage.TC001_VerifyloginWithInvalidCredentials">
+      <class name="com.test.automation.uiautomation.homepage.TC002_VerifyRegistration">
         <methods>
-          <include name="setUp"/>
           <include name="endTest"/>
-          <include name="verifyloginWithInvalidCredentials"/>
+          <include name="testLogin"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.test.automation.uiautomation.homepage.TC001_VerifyloginWithInvalidCredentials -->
+      </class> <!-- com.test.automation.uiautomation.homepage.TC002_VerifyRegistration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
