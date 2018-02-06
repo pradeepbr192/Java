@@ -42,6 +42,9 @@ public class TC002_VerifyRegistration extends TestBase {
 		driver.findElement(By.xpath("//*[@id='company']")).sendKeys("Comcast");
 		driver.findElement(By.xpath("//*[@id='address1']")).clear();
 		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys("Philadelphia");
+		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys("Philadelphia");
+		
+		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys("Philadelphia");
 	}
 	
 	@AfterClass
