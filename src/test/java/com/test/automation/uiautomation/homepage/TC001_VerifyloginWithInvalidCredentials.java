@@ -4,7 +4,8 @@ package com.test.automation.uiautomation.homepage;
 
 import java.util.logging.Logger;
 
-//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
@@ -24,14 +25,14 @@ public class TC001_VerifyloginWithInvalidCredentials extends TestBase {
     public void setUp() {
 
     	init();
-    	//System.setProperty("webdriver.chrome.driver","C:/Users/250630/java/uiautomation/drivers/chromedriver.exe");System.setProperty("webdriver.chrome.driver","C:/Users/250630/java/uiautomation/drivers/chromedriver.exe");
-           //driver= new FirefoxDriver();
-           //driver= new ChromeDriver();
-
-           //System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+ "/drivers/geckodriver.exe");
+    	
+           driver= new FirefoxDriver();
            
 
-          // driver.get("http://automationpractice.com");
+           System.setProperty("webdriver.gecko.driver",System.getProperty( "H:\\uiautomation\\Java\\drivers\\geckodriver.exe"));
+           
+
+          driver.get("http://automationpractice.com");
 
     }	
 

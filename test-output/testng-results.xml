@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25623" started-at="2018-02-06T10:47:27Z" finished-at="2018-02-06T10:47:53Z">
+  <suite name="Default suite" duration-ms="27979" started-at="2018-03-03T14:47:14Z" finished-at="2018-03-03T14:47:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25623" started-at="2018-02-06T10:47:27Z" finished-at="2018-02-06T10:47:53Z">
+    <test name="Default test" duration-ms="27979" started-at="2018-03-03T14:47:14Z" finished-at="2018-03-03T14:47:42Z">
       <class name="com.test.automation.uiautomation.homepage.TC002_VerifyRegistration">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@5e5792a0]" name="setup" is-config="true" duration-ms="19993" started-at="2018-02-06T16:17:27Z" finished-at="2018-02-06T16:17:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@59f99ea]" name="setup" is-config="true" duration-ms="15990" started-at="2018-03-03T20:17:14Z" finished-at="2018-03-03T20:17:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@5e5792a0]" name="testLogin" duration-ms="5603" started-at="2018-02-06T16:17:47Z" finished-at="2018-02-06T16:17:53Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@59f99ea]" name="testLogin" duration-ms="11923" started-at="2018-03-03T20:17:30Z" finished-at="2018-03-03T20:17:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@5e5792a0]" name="endTest" is-config="true" duration-ms="0" started-at="2018-02-06T16:17:53Z" finished-at="2018-02-06T16:17:53Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiautomation.homepage.TC002_VerifyRegistration@59f99ea]" name="endTest" is-config="true" duration-ms="1" started-at="2018-03-03T20:17:42Z" finished-at="2018-03-03T20:17:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

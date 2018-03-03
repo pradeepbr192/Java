@@ -23,7 +23,7 @@ public class TestBase {
 	public void selectBrowser(String browser){	
 		if(browser.equalsIgnoreCase("Chrome")){
 			
-			System.setProperty("webdriver.chrome.driver","C:/Users/250630/java/uiautomation/drivers/chromedriver.exe");System.setProperty("webdriver.chrome.driver","C:/Users/250630/java/uiautomation/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","H:\\uiautomation\\Java\\driver\\chromedriver.exe");System.setProperty("webdriver.chrome.driver","H:/uiautomation/Java/drivers/chromedriver.exe");
 	        log.info("creating object of" +browser);   
 	           driver= new ChromeDriver();
 		}
