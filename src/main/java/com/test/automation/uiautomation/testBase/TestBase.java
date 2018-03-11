@@ -6,12 +6,15 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.test.automation.uiautomation.excelReader.Excel_Reader;
+
 public class TestBase {
 
 	public static final Logger log= Logger.getLogger(TestBase.class.getName());
 	public WebDriver driver;
 	String url="http://automationpractice.com";
 	String browser="Chrome";
+	Excel_Reader excel;
 	
 	public void init(){
 		selectBrowser(browser);
@@ -34,5 +37,13 @@ public class TestBase {
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+	}
+	
+	public String[][] getData(String sheetName, String excelName) {
+		
+		String path= System.getProperty("user.dir") + "\\src\\main\\java\\com\\test\\automation\\uiautomation\\data" +excelName;
+		excel= new Excel_Reader(path);
+		String[][]data= excel.getDatafromsheet(sheetName, excelName);
+		return data;
 	}
 }

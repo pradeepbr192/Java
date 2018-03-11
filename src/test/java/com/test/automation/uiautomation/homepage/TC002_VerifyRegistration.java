@@ -1,10 +1,8 @@
 package com.test.automation.uiautomation.homepage;
 
-import org.openqa.selenium.By;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.openqa.selenium.support.ui.Select;
+//import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import com.test.automation.uiautomation.testBase.TestBase;
